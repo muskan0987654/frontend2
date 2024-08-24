@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice</title>
+</head>
+<body>
+
+    <!--simple example of table by using colspan and rowspan -->
+
+    <!-- <table border="2px" rules="all">
+        <tr>
+            <th colspan="4">Student Data</th>
+        </tr>
+        <tr>
+            <th colspan="2">Name</th>
+            <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+            <th>FName</th>
+            <th>LName</th>
+            <th>Java</th>
+            <th>Mern</th>
+        </tr>
+        <tr>
+            <td>Amit</td>
+            <td rowspan="2">Kumar</td>
+            <td>67</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>Sumit</td>
+            <td rowspan="3">68</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td rowspan="2">Saini</td>
+            <td rowspan="2">87</td>
+        </tr>
+        <tr>
+            <td>Mohan</td>
+        </tr>
+    </table> 
+    -->
+
+    <!-- it is also a table by using colspan and rowspan attribute of table -->
+
+    <!-- <table border="2px" rules="all" height="300px" width="80%">
+        <tr>
+            <td colspan="2" rowspan="2">1</td>
+            <td colspan="2">2</td>
+            <td colspan="2" rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td colspan="3">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td colspan="2">13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table>
+    -->
+
+
+    <!-- example of table and using link inside it -->
+
+    <table border="2px" height="500px" width="80%" rules="all">
+        <tr height="150px" bgcolor="orange">
+            <td colspan="4"><center>Header</center></td>
+        </tr>
+        <tr height="50px" >
+            <td bgcolor="blue"><center><a href="home.html" target="abc"><font color="white">Home</font></a></center></td>
+            <td bgcolor="red"><center><a href="about.html" target="abc"><font color="white">About</font></a></center></td>
+            <td bgcolor="lightgreen"><center><a href="news.html" target="abc"><font color="white">News</font></a></center></td>
+            <td bgcolor="pink"><center><a href="contacts.html" target="abc"><font color="white">Contacts</font></a></center></td>
+        </tr>
+        <tr height="250px" >
+            <!-- <td colspan="3"><center>Left</center></td> -->
+            <td colspan="3" bgcolor="pink">
+                <iframe name="abc" height="250px" width="100%" src="home.html"></iframe>
+            </td>
+            <td bgcolor="gray"><center>Right</center></td>
+        </tr>
+        <tr height="50px" bgcolor="green">
+            <td colspan="4"><center>Footer</center></td>
+        </tr>
+    </table>
+</body>
+</html>
